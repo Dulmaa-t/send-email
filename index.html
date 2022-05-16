@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Balsamiq+Sans&family=Fredoka+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container">  
+        <form class ="contact-form" id="contact" action="" method="post">
+          <h3>Contact Form</h3>
+          <h4>Contact us today, and get reply with in 24 hours!</h4>
+          <fieldset>
+            <input class="name" placeholder="Your Name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input class="email" placeholder="Your Email" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input class="phone" placeholder="Your Phone" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input class="subject" placeholder="Your Subject" id="website" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea  class="message" placeholder="Your Message" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button class="submit" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send message</button>
+          </fieldset>
+        </form>
+       
+        
+      </div>
+    <script src="javascript.js"></script> 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
